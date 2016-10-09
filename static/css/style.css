@@ -1,0 +1,154 @@
+/* line 1, ../../compass/sass/style.scss */
+body {
+  background-color: #1d96d7;
+}
+
+/* line 5, ../../compass/sass/style.scss */
+.header {
+  height: 60px;
+  background-color: #fff;
+}
+/* line 8, ../../compass/sass/style.scss */
+.header .menu-wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+/* line 11, ../../compass/sass/style.scss */
+.header .menu-wrapper li {
+  float: left;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+/* line 19, ../../compass/sass/style.scss */
+.main-content {
+  max-width: 960px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 20px;
+}
+/* line 27, ../../compass/sass/style.scss */
+.main-content .main-header {
+  text-align: center;
+}
+/* line 29, ../../compass/sass/style.scss */
+.main-content .main-header img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+/* line 35, ../../compass/sass/style.scss */
+.main-content .content-header img {
+  width: 100%;
+}
+/* line 38, ../../compass/sass/style.scss */
+.main-content .left-content-bar {
+  width: 69%;
+  display: inline-block;
+  padding-left: 20px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+/* line 44, ../../compass/sass/style.scss */
+.main-content .left-content-bar p.left-bar-header {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #253b56;
+}
+/* line 51, ../../compass/sass/style.scss */
+.main-content .left-content-bar .left-block-items .left-block-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  vertical-align: center;
+}
+/* line 55, ../../compass/sass/style.scss */
+.main-content .left-content-bar .left-block-items .left-block-item .hero-image {
+  display: inline-block;
+  max-width: 30%;
+  vertical-align: top;
+}
+/* line 59, ../../compass/sass/style.scss */
+.main-content .left-content-bar .left-block-items .left-block-item .hero-image img {
+  max-width: 100%;
+}
+/* line 63, ../../compass/sass/style.scss */
+.main-content .left-content-bar .left-block-items .left-block-item .hero-text-wrapper {
+  display: inline-block;
+  max-width: 60%;
+}
+/* line 76, ../../compass/sass/style.scss */
+.main-content .right-content-bar {
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 80, ../../compass/sass/style.scss */
+.main-content .right-content-bar .hours {
+  background-color: #EBF6FC;
+  border-radius: 10px;
+  margin: 10%;
+  padding: 5%;
+}
+/* line 86, ../../compass/sass/style.scss */
+.main-content .right-content-bar .tickets {
+  background-color: #1994D7;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 10%;
+  padding: 5%;
+}
+/* line 94, ../../compass/sass/style.scss */
+.main-content .right-content-bar .tickets p {
+  color: #fff;
+  margin: 5px 0px;
+}
+/* line 98, ../../compass/sass/style.scss */
+.main-content .right-content-bar .tickets .ticket-price {
+  color: #fff;
+  font-size: 36px;
+}
+/* line 103, ../../compass/sass/style.scss */
+.main-content .right-content-bar .tickets button {
+  background-color: #1994d7;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+/* line 111, ../../compass/sass/style.scss */
+.main-content .right-content-bar .map {
+  text-align: center;
+}
+/* line 114, ../../compass/sass/style.scss */
+.main-content .right-content-bar .map img {
+  padding: 1%;
+  border-radius: 2px;
+}
+
+/* line 123, ../../compass/sass/style.scss */
+form {
+  clear: both;
+}
+
+/* line 126, ../../compass/sass/style.scss */
+#nav {
+  overflow: hidden;
+  margin: auto;
+  clear: both;
+}
+/* line 130, ../../compass/sass/style.scss */
+#nav ul {
+  list-style: none;
+}
+/* line 132, ../../compass/sass/style.scss */
+#nav ul li {
+  float: left;
+  margin-left: 20px;
+}
+/* line 135, ../../compass/sass/style.scss */
+#nav ul li a {
+  color: #fff;
+  font-size: 18px;
+}

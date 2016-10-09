@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<div class="header">
+	<ul class="menu-wrapper">
+		<li>Parks & Tickets</li>
+		<li>Places to Stay</li>
+		<li>Things To Do</li>
+		<li>Help</li>
+		<li>Cart</li>
+	</ul>
+</div>
+
+<div class="main-content">
+	<div class="content-header">
+		{% for row in content %}
+		<h1>{{row[1]}}</h1>
+		<img src="/static/images/{{row[0]}}">
+		<h3>{{row[2]}}</h3>
+		{% endfor %}
+	</div>
+
+
+
+
+
+{% endblock %}

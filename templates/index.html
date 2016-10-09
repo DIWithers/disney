@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<div class="header">
+	<ul class="menu-wrapper">
+		<li>Parks & Tickets</li>
+		<li>Places to Stay</li>
+		<li>Things To Do</li>
+		<li>Help</li>
+		<li>Cart</li>
+	</ul>
+</div>
+
+<div class="main-content">
+	<div class="main-header">
+		<h1>Disney's Animal Kingdom Theme Park</h1>
+		<img src="static/images/tree.jpeg">
+	</div>
+
+	<div class="left-content-bar">
+		<p class="left-bar-header">
+			{{header[0][0]}}
+		</p>
+		<p class="left-bar-header">Read More</p>
+		<div class="left-block-items">
+			{%for row in left%}
+				<!-- LINK TO CONTENT -->
+			<a href="/content/{{row[3]}}">
+			<div class="left-block-item">
+				<div class="hero-image">
+					<img src="static/images/{{row[0]}}">
+				</div>
+				<div class="hero-text-wrapper">
+					<p class="block-header">
+					<h4>{{row[1]}}</h4>
+					</p>
+					<p class="block-text">
+					{{row[2]}}
+					</p>
+				</div>
+			</div>
+			</a>
+			{% endfor %}
+		</div> <!-- items -->
+	</div> <!-- left -->
+
+
+	<div class="right-content-bar">
+		<div class="hours">
+			<p>Hours</p>
+			<p>Wednesday</p>
+			<p>September, 28, 2016</p>
+			<p>9:00 AM to 9:00 PM</p>
+			<div class="print-map">
+			Download Printable Map
+			Guest Services
+			</div>
+		</div>
+	
+		<div class="tickets">
+			<p> Starting at</p>
+			<p class="ticket-price">$97.00</p>
+			<p>for a 1-day ticket!</p>
+			<button>Purchase Admission</button>
+		</div>
+		<div class="map">
+			<img src="static/images/map.png">
+		</div>
+	</div> <!-- right -->
+
+</div> <!-- main -->
+{% endblock %}

@@ -1,0 +1,7 @@
+.sass-cache/*
+include/*
+compass/*
+bin/*
+lib/*
+include/*
+.DS_Store

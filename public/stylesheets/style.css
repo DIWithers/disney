@@ -1,0 +1,20 @@
+/* line 1, ../../compass/sass/style.scss */
+body {
+  background-color: #ccc;
+}
+
+/* line 5, ../../compass/sass/style.scss */
+.header {
+  height: 60px;
+  background-color: #fff;
+}
+/* line 8, ../../compass/sass/style.scss */
+.header .menu-wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+/* line 11, ../../compass/sass/style.scss */
+.header .menu-wrapper li {
+  float: left;
+  text-decoration: none;
+}

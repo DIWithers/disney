@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="header">
+	<ul class="menu-wrapper">
+		<li>Parks & Tickets</li>
+		<li>Places to Stay</li>
+		<li>Things To Do</li>
+		<li>Help</li>
+		<li>Cart</li>
+	</ul>
+</div>
+
+<div class="main-content">
+	<div class="main-header">
+		<h1>Disney's Animal Kingdom Theme Park</h1>
+		<img src="static/images/tree.jpeg">
+	</div>
+
+{% endblock %}
